@@ -1,0 +1,34 @@
+import time
+
+text = "Python is easy to learn"
+
+print("⌨️ Typing Speed Tester")
+print("----------------------")
+print("Type the following sentence:\n")
+print(text)
+
+input("\nPress Enter when you're ready...")
+
+start = time.time()
+
+typed = input("\nStart typing: ")
+
+end = time.time()
+
+time_taken = end - start
+
+original_words = text.split()
+typed_words = typed.split()
+
+correct = 0
+for i in range(min(len(original_words), len(typed_words))):
+    if original_words[i] == typed_words[i]:
+        correct += 1
+
+accuracy = (correct / len(original_words)) * 100
+wpm = (len(typed_words) / time_taken) * 60
+
+print("\n📊 Result")
+print(f"Time Taken: {time_taken:.2f} seconds")
+print(f"Typing Speed: {wpm:.2f} WPM")
+print(f"Accuracy: {accuracy:.2f}%")
