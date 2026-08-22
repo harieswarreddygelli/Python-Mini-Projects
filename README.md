@@ -15,6 +15,4 @@ This repository will contain multiple small Python projects as I continue learni
 
 ### Current Projects
 
-Add your actual projects here, for example:
-
 - Project 1 — Typing speed Tester
