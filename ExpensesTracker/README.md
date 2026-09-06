@@ -1,4 +1,4 @@
-# 💰 Expense Tracker Pro
+# 💰 Expense Tracker 
 
 A simple and elegant **Command Line Expense Tracking application** built with Python. It helps users manage their income and expenses, track transactions, analyze spending categories, and monitor their overall financial balance.
 
@@ -64,13 +64,13 @@ expense-tracker-pro/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/expense-tracker-pro.git
+git clone https://github.com/harieswarreddygelli/expensetracker.git
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd expense-tracker-pro
+cd expensetracker
 ```
 
 ### 3. Install dependencies
@@ -82,7 +82,7 @@ pip install rich
 ### 4. Run the application
 
 ```bash
-python expense_tracker.py
+python expensetracker.py
 ```
 
 ---
