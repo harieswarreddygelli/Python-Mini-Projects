@@ -87,6 +87,7 @@ Data Structure Manipulation: Tracking chronological execution logs using Python 
 Modular Code Architecture: Structuring helper functions cleanly with a standard if __name__ == "__main__": entry point.
 
 🔮 Future Improvements
+
 💾 Persistent History Storage: Save calculation history to a local .txt or .json file across sessions.
 
 📐 Scientific Calculator Mode: Add trigonometry, square roots, and logarithms using Python's math module.
